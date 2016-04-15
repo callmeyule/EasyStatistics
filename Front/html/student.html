@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8"/>
+<title>请输入相关信息</title>
+<script src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/fetchData.js"></script>
+<script type="text/javascript" src="../js/dealData.js"></script>
+<link rel="stylesheet" type="test/css" href="../css/describe.css"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,
+maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatiable" content="IE=edge,chorme=1" >
+<meta name="HandheldFriendly" content="true">
+</head>
+<body>
+<div id="father_div">
+  <p class="one">请正确填写信息，不能有空</p>
+  <div class="easyui-panel" id="insert">
+  	<p id="inputTest"></p>
+  </div>
+</div>
+<script type="text/javascript">
+	window.onload=function(){
+		getTypeList();
+		dealType();
+	}
+</script>
+</body>
