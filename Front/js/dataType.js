@@ -1,5 +1,5 @@
 function initType(typeList){
-	var typeList=new Object();
-	typeList.type=typeList;
-	return typeList;
+	var typeListTest=new Object();
+	typeListTest.type=typeList;
+	return typeListTest;
 }
